@@ -21,11 +21,11 @@ namespace wpf01
         {
             InitializeComponent();
             List<Juego> juegos = new List<Juego>(); 
-            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real madril", Progreso = 80 });
-            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real madril", Progreso = 90 });
-            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real madril", Progreso = 80 });
-            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real madril", Progreso = 80 });
-            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real madril", Progreso = 10 });
+            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real Madrid ", Progreso = 80 });
+            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real Madrid ", Progreso = 90 });
+            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real Madrid ", Progreso = 80 });
+            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real Madrid ", Progreso = 80 });
+            juegos.Add(new Juego { Puntaje1 = 2, Puntaje2 = 3, Eq1 = "Barcelona", Eq2 = "Real Madrid ", Progreso = 10 });
             lbJuego.ItemsSource = juegos;
         }
 
